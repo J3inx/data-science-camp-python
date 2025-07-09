@@ -1,10 +1,8 @@
 from PIL import Image
 import requests
 from io import BytesIO
-
-
+import CustomViewer
 answer = input("who's the goat?")
-
 if answer.lower() in ['bron', 'lebron']:
         print("your damn right")
 else:
